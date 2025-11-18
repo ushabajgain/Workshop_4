@@ -4,11 +4,11 @@ using ConsoleApp4;
 
 public class Program
 {
-    
+
     static void Main(string[] args)
     {
-        // Task 1
-        
+        //-------------------------------------Task 1-----------------------------------------
+
         // Creating first object
         Student s1 = new Student();
         s1.name = "Usha";
@@ -33,16 +33,16 @@ public class Program
 
         // Printing static field
         Console.WriteLine("\nSchool Name : " + Student.schoolName);
-        
-        
-        // Task 2
+
+
+        //--------------------------------Task 2--------------------------------------
         Calculator calc = new Calculator();
         calc.PrintWelcome();
 
         // Add
         int sum = calc.Add(5, 7);
         Console.WriteLine("Addition: " + sum);
-        
+
         // Multiply
         int product1 = calc.Multiply(4, 3);
         Console.WriteLine("Multiplication(4 * 3): " + product1);
@@ -50,5 +50,27 @@ public class Program
         // optional parameter
         int product2 = calc.Multiply(6);
         Console.WriteLine("Multiplication Result (6 * default 1): " + product2);
+
+
+        //-----------------------------------Task 3------------------------------------------
+
+        ParameterDemo demo = new ParameterDemo();
+
+        int value = 5;
+        demo.Increase(ref value);
+        Console.WriteLine("Value after Increase: " + value);
+
+        string myName;
+        demo.GetFullName(out myName);
+        Console.WriteLine("Full Name from GetFullName: " + myName);
+
+        int total = demo.SumAll(5, 10, 15, 20);
+        Console.WriteLine("Sum of all numbers: " + total);
+
+        //-------------------------------------Task 4------------------------------------------
+        
+        
+        
     }
+
 }

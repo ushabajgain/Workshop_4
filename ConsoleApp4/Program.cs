@@ -30,5 +30,6 @@ public class Program
 
         // Print static field
         Console.WriteLine("\nSchool Name : " + Student.schoolName);
+        
     }
 }

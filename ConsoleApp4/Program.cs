@@ -4,8 +4,11 @@ using ConsoleApp4;
 
 public class Program
 {
+    
     static void Main(string[] args)
     {
+        // Task 1
+        
         // Creating first object
         Student s1 = new Student();
         s1.name = "Usha";
@@ -28,8 +31,24 @@ public class Program
         Console.WriteLine("Age: " + s2.age);
         Console.WriteLine("Address: " + s2.address);
 
-        // Print static field
+        // Printing static field
         Console.WriteLine("\nSchool Name : " + Student.schoolName);
         
+        
+        // Task 2
+        Calculator calc = new Calculator();
+        calc.PrintWelcome();
+
+        // Add
+        int sum = calc.Add(5, 7);
+        Console.WriteLine("Addition: " + sum);
+        
+        // Multiply
+        int product1 = calc.Multiply(4, 3);
+        Console.WriteLine("Multiplication(4 * 3): " + product1);
+
+        // optional parameter
+        int product2 = calc.Multiply(6);
+        Console.WriteLine("Multiplication Result (6 * default 1): " + product2);
     }
 }

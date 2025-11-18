@@ -8,58 +8,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ed9ff58-0a0f-4991-90a0-b1a2ef9e4eda" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ConsoleApp4/Calculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp4/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/Student.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.sourcelink.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ushabajgain"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ushabajgain&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ushabajgain/Workshop_4.git",
-    "accountId": "9c83d55b-0f0a-4f8e-bf4e-bfc23d774869"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ushabajgain/Workshop_4.git&quot;,
+    &quot;accountId&quot;: &quot;9c83d55b-0f0a-4f8e-bf4e-bfc23d774869&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ConsoleApp4/Calculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/ushabajagai/Downloads/Developer/Application Development/ConsoleApp4/ConsoleApp4/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp4/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/ushabajagai/Downloads/Developer/Application Development/ConsoleApp4/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="35dM7wfwt03jnqXKMuvXfYWyz1u" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.ConsoleApp4.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.ConsoleApp4.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ConsoleApp4" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -92,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763435331519</updated>
-      <workItem from="1763435332588" duration="1926000" />
+      <workItem from="1763435332588" duration="3113000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -102,7 +111,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763436403436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added task 1">
+      <option name="closed" value="true" />
+      <created>1763437392181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763437392181</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added task 1">
+      <option name="closed" value="true" />
+      <created>1763437449988</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763437449988</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task 1 updated">
+      <option name="closed" value="true" />
+      <created>1763437561556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763437561556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +169,10 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Added task 1" />
+    <MESSAGE value="added task 1" />
+    <MESSAGE value="task 1 updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 1 updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

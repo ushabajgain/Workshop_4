@@ -10,7 +10,6 @@ public class Player
     {
         Console.WriteLine("Default constructor has been called");
     }
-
     public Player(string playerName, int level, int health)
     {
         this.playerName = playerName;

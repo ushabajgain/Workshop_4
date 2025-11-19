@@ -127,7 +127,22 @@ public class Program
         
         //---------------------------------- Task 6 -----------------------------------------
         
-           
-    }
+        Console.Write("Enter marks: ");
+        bool isMarksValid = int.TryParse(Console.ReadLine(), out int marks);
 
+        Console.Write("Enter total: ");
+        bool isTotalValid = int.TryParse(Console.ReadLine(), out int totall);
+
+        if (!isMarksValid || !isTotalValid || totall <= 0)
+        {
+            Console.WriteLine("Invalid input. Please enter valid integers and total cannot be zero.");
+            return;
+        }
+        // BREAKPOINT 1 
+        // double percentage = marks / totall * 100; 
+        double percentage = (double)marks / totall * 100;
+        
+        // BREAKPOINT 2 
+        Console.WriteLine("Percentage: " + percentage);
+    }
 }

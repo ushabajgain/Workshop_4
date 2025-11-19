@@ -8,14 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ed9ff58-0a0f-4991-90a0-b1a2ef9e4eda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ConsoleApp4/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp4/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/bin/Debug/net9.0/ConsoleApp4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/bin/Debug/net9.0/ConsoleApp4.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/bin/Debug/net9.0/ConsoleApp4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/bin/Debug/net9.0/ConsoleApp4.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp4/obj/Debug/net9.0/ConsoleApp4.sourcelink.json" afterDir="false" />
@@ -46,7 +45,9 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ConsoleApp4/BookRecord.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp4/Calculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleApp4/DayType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp4/ParameterDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp4/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ushabajagai/Downloads/Developer/Application Development/ConsoleApp4/ConsoleApp4/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -109,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763435331519</updated>
-      <workItem from="1763435332588" duration="10346000" />
+      <workItem from="1763435332588" duration="21585000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -159,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763477296551</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added task 4">
+      <option name="closed" value="true" />
+      <created>1763478318726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763478318726</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added task 5">
+      <option name="closed" value="true" />
+      <created>1763525580049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763525580049</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +215,9 @@
     <MESSAGE value="task 1 updated" />
     <MESSAGE value="Added task 2" />
     <MESSAGE value="Added task 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added task 3" />
+    <MESSAGE value="Added task 4" />
+    <MESSAGE value="Added task 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added task 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

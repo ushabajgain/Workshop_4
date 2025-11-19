@@ -7,7 +7,7 @@ public class Program
 
     static void Main(string[] args)
     {
-        //-------------------------------------Task 1-----------------------------------------
+        //------------------------------------- Task 1 -----------------------------------------
 
         // Creating first object
         Student s1 = new Student();
@@ -35,7 +35,7 @@ public class Program
         Console.WriteLine("\nSchool Name : " + Student.schoolName);
 
 
-        //--------------------------------Task 2--------------------------------------
+        //-------------------------------- Task 2 --------------------------------------
         Calculator calc = new Calculator();
         calc.PrintWelcome();
 
@@ -52,7 +52,7 @@ public class Program
         Console.WriteLine("Multiplication Result (6 * default 1): " + product2);
 
 
-        //-----------------------------------Task 3------------------------------------------
+        //----------------------------------- Task 3 ------------------------------------------
 
         ParameterDemo demo = new ParameterDemo();
 
@@ -67,7 +67,7 @@ public class Program
         int total = demo.SumAll(5, 10, 15, 20);
         Console.WriteLine("Sum of all numbers: " + total);
 
-        //-------------------------------------Task 4------------------------------------------
+        //------------------------------------- Task 4 ------------------------------------------
         
         Player p1 = new Player();
         Console.WriteLine("Player 1 Details:");
@@ -83,9 +83,51 @@ public class Program
         Console.WriteLine("Level: " + p2.level);
         Console.WriteLine("Health: " + p2.health);
         
-        //--------------------------------------Task 5------------------------------------------
+        //-------------------------------------- Task 5 ------------------------------------------
+        // ----------- DayType ------------
+
+        Console.Write("Enter a day: ");
+        string day = Console.ReadLine();
+
+        DayType dayType;
+
+        if (day.Equals("Friday", StringComparison.OrdinalIgnoreCase) ||
+            day.Equals("Saturday", StringComparison.OrdinalIgnoreCase))
+        {
+            dayType = DayType.Weekend;
+        }
+        else
+        {
+            dayType = DayType.Weekday;
+        }
+
+        Console.WriteLine($"It is: {dayType}");
+
+        Console.WriteLine("\n--- Book Record Demo ---");
+
+        // ----------- Book Record ------------
+
+        // First book object
+        BookRecord book1 = new BookRecord("Programming Basics", "Usha Bajgain", 500.00);
+
+        // Creating second book by modifying title and price
+        BookRecord book2 = book1 with { title = "C# Basics", price = 600.00 };
+
+        // Printing first book
+        Console.WriteLine("\nBook 1:");
+        Console.WriteLine(book1);
+
+        // Deconstructing second book
+        var (title, author, price) = book2;
+
+        Console.WriteLine("\nBook 2 :");
+        Console.WriteLine($"Title: {title}");
+        Console.WriteLine($"Author: {author}");
+        Console.WriteLine($"Price: {price}");
         
+        //---------------------------------- Task 6 -----------------------------------------
         
+           
     }
 
 }
